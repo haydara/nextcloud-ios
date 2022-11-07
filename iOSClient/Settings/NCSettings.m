@@ -137,7 +137,7 @@
     [section addFormRow:row];
 
     // Section : INFORMATION ------------------------------------------------
-
+/*
     section = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_information_", nil)];
     [form addFormSection:section];
     
@@ -176,7 +176,7 @@
         row.action.formSelector = @selector(sourceCode:);
         [section addFormRow:row];
     }
-    
+  */
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 35, 0);
     self.form = form;
@@ -419,6 +419,7 @@
     if (section == 1) {
         sectionName = NSLocalizedString(@"_lock_protection_no_screen_footer_", nil);
     } else if (section == numSections) {
+        /*
         NSString *versionServer = [[NCManageDatabase shared] getCapabilitiesServerStringWithAccount:appDelegate.account elements:NCElementsJSON.shared.capabilitiesVersionString];
         NSString *themingName = [[NCManageDatabase shared] getCapabilitiesServerStringWithAccount:appDelegate.account elements:NCElementsJSON.shared.capabilitiesThemingName];
         NSString *themingSlogan = [[NCManageDatabase shared] getCapabilitiesServerStringWithAccount:appDelegate.account elements:NCElementsJSON.shared.capabilitiesThemingSlogan];
@@ -429,6 +430,7 @@
         NSString *nameSlogan = [NSString stringWithFormat:@"%@ - %@", themingName, themingSlogan];
 
         sectionName = [NSString stringWithFormat:@"\n%@\n\n%@\n%@", versionNextcloudiOS, versionNextcloud, nameSlogan];
+         */
     }
     return sectionName;
 }
