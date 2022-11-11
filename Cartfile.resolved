@@ -1,3 +1,3 @@
-github "krzyzanowskim/OpenSSL" "1.1.1700"
+github "krzyzanowskim/OpenSSL" "52db2ab9de7f78d1dea0d728fddd47fb133e25b7"
 github "marinofaggiana/KTVHTTPCache" "2.0.5"
 github "marinofaggiana/TOPasscodeViewController" "a1b9d1058b2648e636525fc368e220a0cfddb42a"
