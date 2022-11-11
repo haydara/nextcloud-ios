@@ -50,7 +50,7 @@ import UIKit
     @objc public var folderDefaultAutoUpload: String = "Photos"
 
     // Capabilities Group
-    @objc public var capabilitiesGroups: String = "group.it.twsweb.Crypto-Cloud"
+    @objc public var capabilitiesGroups: String = "group.de.smartwork"
 
     // User Agent
     @objc public var userAgent: String = "Nextcloud-iOS"                                                            // Don't touch me !!
