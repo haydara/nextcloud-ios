@@ -53,7 +53,7 @@ import UIKit
     @objc public var capabilitiesGroups: String = "group.de.smartwork"
 
     // User Agent
-    @objc public var userAgent: String = "Nextcloud-iOS"                                                            // Don't touch me !!
+    @objc public var userAgent: String = "Smartwork-iOS"                                                            // Don't touch me !!
 
     // BRAND ONLY
     @objc public var use_login_web_personalized:        Bool = false                                                // Don't touch me !!
