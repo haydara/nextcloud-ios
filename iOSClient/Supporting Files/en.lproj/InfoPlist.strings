@@ -5,4 +5,4 @@ NSPhotoLibraryUsageDescription = "Photo library access is required to upload you
 NSPhotoLibraryAddUsageDescription = "Photo library access is required to upload your photos and videos to your cloud.";
 NSMicrophoneUsageDescription = "Microphone access is required to create voice notes.";
 NSLocationWhenInUseUsageDescription = "GPS is used to detect new photos from camera roll on background. It is useless to use GPS only while using the app.";
-CFBundleDisplayName = "SW Files";
+CFBundleDisplayName = "Smartwork";
