@@ -22,7 +22,7 @@
 //
 
 #if !defined(EXTENSION)
-#import "SwFiles-Swift.h"
+#import "Smartwork-Swift.h"
 #endif
 
 #if defined(EXTENSION_SHARE)
