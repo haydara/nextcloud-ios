@@ -138,7 +138,7 @@
     }
     
     // Section DIAGNOSTICS -------------------------------------------------
-
+/*
     section = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_diagnostics_", nil)];
     [form addFormSection:section];
         
@@ -208,7 +208,7 @@
         [self presentViewController:capabilities animated:YES completion:nil];
     };
     [section addFormRow:row];
-    
+    */
     // Section : Delete files / Clear cache --------------------------------------------------------------
 
     sectionSize = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_delete_files_desc_", nil)];

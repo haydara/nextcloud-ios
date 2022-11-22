@@ -3515,6 +3515,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOSClient/Brand/iOSClient.entitlements;
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/iOSClient.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = SmartWork;
+				MARKETING_VERSION = 4.5.52;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -3528,6 +3529,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOSClient/Brand/iOSClient.entitlements;
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/iOSClient.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = SmartWork;
+				MARKETING_VERSION = 4.5.52;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -3654,7 +3656,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.5.5;
+				MARKETING_VERSION = 4.5.52;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
@@ -3715,7 +3717,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.5.5;
+				MARKETING_VERSION = 4.5.52;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;

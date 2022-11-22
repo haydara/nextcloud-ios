@@ -130,7 +130,7 @@
     }
     
     // Section : CERIFICATES -------------------------------------------
-
+/*
     section = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_certificates_", nil)];
     [form addFormSection:section];
 
@@ -151,7 +151,7 @@
     [row.cellConfig setObject:UIColor.labelColor forKey:@"textLabel.textColor"];
     row.action.formSelector = @selector(certificatePNDetails:);
     [section addFormRow:row];
-    
+    */
     // Section : USER INFORMATION -------------------------------------------
     
     section = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_personal_information_", nil)];
