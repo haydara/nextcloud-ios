@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F771E3CF20E2392D00AFB62D"
-               BuildableName = "File Provider Extension.appex"
-               BlueprintName = "File Provider Extension"
-               ReferencedContainer = "container:SwFiles.xcodeproj">
+               BlueprintIdentifier = "F7346E0F28B0EF5B006CE2D2"
+               BuildableName = "Widget.appex"
+               BlueprintName = "Widget"
+               ReferencedContainer = "container:Smartwork.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F77B0DEB1D118A16002130FE"
-               BuildableName = "SwFiles.app"
-               BlueprintName = "SwFiles"
-               ReferencedContainer = "container:SwFiles.xcodeproj">
+               BuildableName = "Smartwork.app"
+               BlueprintName = "Smartwork"
+               ReferencedContainer = "container:Smartwork.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,26 +42,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F771E3CF20E2392D00AFB62D"
-            BuildableName = "File Provider Extension.appex"
-            BlueprintName = "File Provider Extension"
-            ReferencedContainer = "container:SwFiles.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF8ED1F82757821000B8DBC4"
-               BuildableName = "SwFilesTests.xctest"
-               BlueprintName = "SwFilesTests"
-               ReferencedContainer = "container:SwFiles.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -76,16 +57,43 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F7346E0F28B0EF5B006CE2D2"
+            BuildableName = "Widget.appex"
+            BlueprintName = "Widget"
+            ReferencedContainer = "container:Smartwork.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F77B0DEB1D118A16002130FE"
-            BuildableName = "SwFiles.app"
-            BlueprintName = "SwFiles"
-            ReferencedContainer = "container:SwFiles.xcodeproj">
+            BuildableName = "Smartwork.app"
+            BlueprintName = "Smartwork"
+            ReferencedContainer = "container:Smartwork.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "_XCWidgetKind"
+            value = ""
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "_XCWidgetDefaultView"
+            value = "timeline"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "_XCWidgetFamily"
+            value = "medium"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -99,9 +107,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F77B0DEB1D118A16002130FE"
-            BuildableName = "SwFiles.app"
-            BlueprintName = "SwFiles"
-            ReferencedContainer = "container:SwFiles.xcodeproj">
+            BuildableName = "Smartwork.app"
+            BlueprintName = "Smartwork"
+            ReferencedContainer = "container:Smartwork.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

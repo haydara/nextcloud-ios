@@ -622,7 +622,7 @@
 		AF7E504D27A2D8FF00B5E4AF /* UIBarButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButton+Extension.swift"; sourceTree = "<group>"; };
 		AF7E504F27A2D92300B5E4AF /* NCSelectableNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCSelectableNavigationView.swift; sourceTree = "<group>"; };
 		AF817EF0274BC781009ED85B /* NCUserBaseUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCUserBaseUrl.swift; sourceTree = "<group>"; };
-		AF8ED1F92757821000B8DBC4 /* SwFilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwFilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8ED1F92757821000B8DBC4 /* SmartworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8ED1FB2757821000B8DBC4 /* NextcloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextcloudTests.swift; sourceTree = "<group>"; };
 		AF8ED2022757822700B8DBC4 /* NCGlobalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCGlobalTests.swift; sourceTree = "<group>"; };
 		AF93471127E2341B002537EE /* NCShare+Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NCShare+Menu.swift"; sourceTree = "<group>"; };
@@ -1084,7 +1084,7 @@
 		F7CB689F254169530050EC94 /* NCSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NCSettings.storyboard; sourceTree = "<group>"; };
 		F7CBC31B24F78E79004D3812 /* NCSortMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCSortMenu.swift; sourceTree = "<group>"; };
 		F7CC04E61F5AD50D00378CEF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F7CE8AFA1DC1F8D8009CAE48 /* SwFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CE8AFA1DC1F8D8009CAE48 /* Smartwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CE8AFB1DC1F8D8009CAE48 /* Share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Share.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D0F33D264144FC0097D4A3 /* Background.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Background.xcassets; sourceTree = "<group>"; };
 		F7D1611F23CF19E30039EBBF /* NCViewerRichWorkspace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NCViewerRichWorkspace.storyboard; sourceTree = "<group>"; };
@@ -2043,7 +2043,7 @@
 				F7FC7D541DC1F93700BB2C6A /* Frameworks */,
 				F771E3D020E2392D00AFB62D /* File Provider Extension.appex */,
 				2C33C47F23E2C475005F963B /* Notification Service Extension.appex */,
-				AF8ED1F92757821000B8DBC4 /* SwFilesTests.xctest */,
+				AF8ED1F92757821000B8DBC4 /* SmartworkTests.xctest */,
 				F7346E1028B0EF5B006CE2D2 /* Widget.appex */,
 				F7C9739028F17131002C43E2 /* WidgetDashboardIntentHandler.appex */,
 			);
@@ -2211,7 +2211,7 @@
 		F7FC7D651DC1F98700BB2C6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7CE8AFA1DC1F8D8009CAE48 /* SwFiles.app */,
+				F7CE8AFA1DC1F8D8009CAE48 /* Smartwork.app */,
 				F7CE8AFB1DC1F8D8009CAE48 /* Share.appex */,
 			);
 			name = Products;
@@ -2259,9 +2259,9 @@
 			productReference = 2C33C47F23E2C475005F963B /* Notification Service Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		AF8ED1F82757821000B8DBC4 /* SwFilesTests */ = {
+		AF8ED1F82757821000B8DBC4 /* SmartworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF8ED2012757821000B8DBC4 /* Build configuration list for PBXNativeTarget "SwFilesTests" */;
+			buildConfigurationList = AF8ED2012757821000B8DBC4 /* Build configuration list for PBXNativeTarget "SmartworkTests" */;
 			buildPhases = (
 				AF8ED1F52757821000B8DBC4 /* Sources */,
 				AF8ED1F62757821000B8DBC4 /* Frameworks */,
@@ -2272,9 +2272,9 @@
 			dependencies = (
 				AF8ED1FE2757821000B8DBC4 /* PBXTargetDependency */,
 			);
-			name = SwFilesTests;
+			name = SmartworkTests;
 			productName = NextcloudTests;
-			productReference = AF8ED1F92757821000B8DBC4 /* SwFilesTests.xctest */;
+			productReference = AF8ED1F92757821000B8DBC4 /* SmartworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F71459B41D12E3B700CAFEEC /* Share */ = {
@@ -2356,9 +2356,9 @@
 			productReference = F771E3D020E2392D00AFB62D /* File Provider Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		F77B0DEB1D118A16002130FE /* SwFiles */ = {
+		F77B0DEB1D118A16002130FE /* Smartwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "SwFiles" */;
+			buildConfigurationList = F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "Smartwork" */;
 			buildPhases = (
 				F77B0DEF1D118A16002130FE /* Sources */,
 				F77B0EDC1D118A16002130FE /* Frameworks */,
@@ -2376,7 +2376,7 @@
 				F7346E1B28B0EF5E006CE2D2 /* PBXTargetDependency */,
 				F7C9739828F17131002C43E2 /* PBXTargetDependency */,
 			);
-			name = SwFiles;
+			name = Smartwork;
 			packageProductDependencies = (
 				F75E57BC25BF0EC1002B72C2 /* SVGKit */,
 				F7ED547B25EEA65400956C55 /* QRCodeReader */,
@@ -2399,7 +2399,7 @@
 				F734B06528E75C0100E180D5 /* TLPhotoPicker */,
 			);
 			productName = "Crypto Cloud";
-			productReference = F7CE8AFA1DC1F8D8009CAE48 /* SwFiles.app */;
+			productReference = F7CE8AFA1DC1F8D8009CAE48 /* Smartwork.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F7C9738F28F17131002C43E2 /* WidgetDashboardIntentHandler */ = {
@@ -2481,7 +2481,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7F67BA31A24D27800EE80DA /* Build configuration list for PBXProject "SwFiles" */;
+			buildConfigurationList = F7F67BA31A24D27800EE80DA /* Build configuration list for PBXProject "Smartwork" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -2557,13 +2557,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F77B0DEB1D118A16002130FE /* SwFiles */,
+				F77B0DEB1D118A16002130FE /* Smartwork */,
 				F7346E0F28B0EF5B006CE2D2 /* Widget */,
 				F7C9738F28F17131002C43E2 /* WidgetDashboardIntentHandler */,
 				F71459B41D12E3B700CAFEEC /* Share */,
 				F771E3CF20E2392D00AFB62D /* File Provider Extension */,
 				2C33C47E23E2C475005F963B /* Notification Service Extension */,
-				AF8ED1F82757821000B8DBC4 /* SwFilesTests */,
+				AF8ED1F82757821000B8DBC4 /* SmartworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -3129,7 +3129,7 @@
 		};
 		AF8ED1FE2757821000B8DBC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F77B0DEB1D118A16002130FE /* SwFiles */;
+			target = F77B0DEB1D118A16002130FE /* Smartwork */;
 			targetProxy = AF8ED1FD2757821000B8DBC4 /* PBXContainerItemProxy */;
 		};
 		F7145A321D12E65F00CAFEEC /* PBXTargetDependency */ = {
@@ -3324,7 +3324,7 @@
 					EXTENSION_NOTIFICATION_SERVICE,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/Notification_Service_Extension.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.SwFiles.Notification-Service-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.Smartwork.Notification-Service-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_NOTIFICATION_SERVICE";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Notification Service Extension/Notification_Service_Extension-Bridging-Header.h";
@@ -3341,7 +3341,7 @@
 					EXTENSION_NOTIFICATION_SERVICE,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/Notification_Service_Extension.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.SwFiles.Notification-Service-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.Smartwork.Notification-Service-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_NOTIFICATION_SERVICE";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Notification Service Extension/Notification_Service_Extension-Bridging-Header.h";
@@ -3357,7 +3357,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.NextcloudTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwFiles.app/SwFiles";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartwork.app/Smartwork";
 			};
 			name = Debug;
 		};
@@ -3370,7 +3370,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.NextcloudTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwFiles.app/SwFiles";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartwork.app/Smartwork";
 			};
 			name = Release;
 		};
@@ -3384,7 +3384,7 @@
 					EXTENSION_SHARE,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/Share.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.SwFiles.Share;
+				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.Smartwork.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_SHARE";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Share/Share-Bridging-Header.h";
@@ -3401,7 +3401,7 @@
 					EXTENSION_SHARE,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/Share.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.SwFiles.Share;
+				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.Smartwork.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_SHARE";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Share/Share-Bridging-Header.h";
@@ -3428,7 +3428,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Nextcloud. All rights reserved.";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.SwFiles.Widget;
+				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.Smartwork.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_WIDGET";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3456,7 +3456,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Nextcloud. All rights reserved.";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.SwFiles.Widget;
+				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.Smartwork.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_WIDGET";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3478,7 +3478,7 @@
 					EXTENSION_FILE_PROVIDER_EXTENSION,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/File_Provider_Extension.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.SwFiles.File-Provider-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.Smartwork.File-Provider-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_FILE_PROVIDER_EXTENSION";
@@ -3499,7 +3499,7 @@
 					EXTENSION_FILE_PROVIDER_EXTENSION,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/File_Provider_Extension.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.SwFiles.File-Provider-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.smartwork.Smartwork.File-Provider-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_FILE_PROVIDER_EXTENSION";
@@ -3559,7 +3559,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Nextcloud. All rights reserved.";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.SwFiles.WidgetDashboardIntentHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.Smartwork.WidgetDashboardIntentHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_WIDGETDASHBOARDINTENTHANDLER";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3594,7 +3594,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Nextcloud. All rights reserved.";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.SwFiles.WidgetDashboardIntentHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = de.smartwork.Smartwork.WidgetDashboardIntentHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) EXTENSION EXTENSION_WIDGETDASHBOARDINTENTHANDLER";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3740,7 +3740,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF8ED2012757821000B8DBC4 /* Build configuration list for PBXNativeTarget "SwFilesTests" */ = {
+		AF8ED2012757821000B8DBC4 /* Build configuration list for PBXNativeTarget "SmartworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF8ED1FF2757821000B8DBC4 /* Debug */,
@@ -3776,7 +3776,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "SwFiles" */ = {
+		F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "Smartwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F77B0F9B1D118A16002130FE /* Debug */,
@@ -3794,7 +3794,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7F67BA31A24D27800EE80DA /* Build configuration list for PBXProject "SwFiles" */ = {
+		F7F67BA31A24D27800EE80DA /* Build configuration list for PBXProject "Smartwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7F67BC91A24D27800EE80DA /* Debug */,
